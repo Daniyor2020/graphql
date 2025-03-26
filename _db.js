@@ -19,13 +19,17 @@ let reviews = [
     { id: '7', rating: 5, content: 'Great game', author_id: '1', game_id: '3' },
     { id: '8', rating: 4, content: 'Pretty good', author_id: '2', game_id: '3' },
     { id: '9', rating: 3, content: 'Meh', author_id: '3', game_id: '3' },
-    { id: '10', rating: 5, content: 'Great game', author_id: '1', game_id: '4' }
+    { id: '10', rating: 5, content: 'Great game', author_id: '1', game_id: '4' },
+    { id: '11', rating: 4, content: 'Pretty good', author_id: '2', game_id: '4' },
+    { id: '12', rating: 3, content: 'Meh', author_id: '3', game_id: '4' },  
+
 ]
 
 let authors = [
     { id: '1', name: 'Sam', varified: true },
     { id: '2', name: 'Tom', varified: true },
-    { id: '3', name: 'Tim', varified: false }
+    { id: '3', name: 'Tim', varified: false },
+    { id: '4', name: 'Bob', varified: true },
 ]
 
 export default { games, reviews, authors } 
